@@ -10,7 +10,7 @@ const cors = require("cors");
 app.use(express.json());
 app.use(cors());
 
-mongoose.connect('mongodb://127.0.0.1/backend').then(()=>{
+mongoose.connect('mongodb+srv://taruunprasathgs2022eee:K83QmHmXHzs2DfJI@cluster-taruun.skzkrkf.mongodb.net/?retryWrites=true&w=majority&appName=Cluster-Taruun').then(()=>{
 console.log("Connected sucessfully");
 });
 
